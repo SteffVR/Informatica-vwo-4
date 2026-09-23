@@ -1,11 +1,13 @@
 body {
-    background-color: #E1D9D1;
+    background-color: #e9e5e1;
     font-family: Arial;
 }
 
 h1 {
-    color: black;
+    color: rgb(7, 135, 54);
+    
 }
+
 
 p {
     font-size: 18px;
