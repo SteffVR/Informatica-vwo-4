@@ -18,3 +18,8 @@ article {
  border: 3px solid #e14f9b;
  margin: 20px;
 }
+img {
+    padding: 10px;
+    width: 40%;
+    margin: 0 30%;
+}
