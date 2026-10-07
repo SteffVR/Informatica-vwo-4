@@ -1,6 +1,11 @@
 body {
     background-color: #e9e5e1;
     font-family: Arial;
+    display: grid;
+    min-height: 100vh
+
+    grid-template-columns: 250px auto;
+    grid-template-rows: 150px 50px auto 50px;
 }
 
 h1 {
@@ -22,3 +27,4 @@ img {
     padding: 10px;
     width: 40%;
 }
+
