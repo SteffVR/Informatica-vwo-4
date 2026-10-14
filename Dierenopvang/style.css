@@ -4,8 +4,14 @@ body {
     display: grid;
     min-height: 100vh
 
-    grid-template-columns: 250px auto;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 150px 50px auto 50px;
+
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "main  aside"
+        "footer footer"; 
 }
 
 h1 {
@@ -27,4 +33,22 @@ img {
     padding: 10px;
     width: 40%;
 }
+header{
+    grid-area: header;
+}
 
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
